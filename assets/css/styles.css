@@ -59,11 +59,52 @@ body {
 
 #aboutcontain{
     margin-left: 33px;
+    width: 75%;
+    font-size: 90%;
 }
 
 #yourName{
     margin-left: -50px;
 }
+.navbar-nav
+{
+    justify-items: end ;
+}
+img{
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+          background-color: blue;     
+        }
+    
+    #aboutcontain{
+        margin-left: 33px;
+        width: 75%;
+        font-size: 90%;
+    }
+    
+    #yourName{
+        margin-left: -50px;
+    }
+    .navbar-nav
+    {
+        justify-items: ;
+    }
+    img{
+        width: 160px;
+        height: 120px;
+        object-fit: cover;
+    }
+    }
+
+
+
 
     
 
