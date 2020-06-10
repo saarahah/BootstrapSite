@@ -11,15 +11,18 @@ body{
     position: fixed;
     bottom: 0;
     height: 60px;
-    width: 100%;
+    width: 100%;   
 }
 
+
+
 .navbar-brand{
-    padding: 20px 26px;
+    padding: 15px 26px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 22px;
     background-color: teal;
+    margin-left: -15px;
 }
 
 .navbar{
@@ -40,3 +43,18 @@ h1{
     padding-left: 5px;
     color: lightgray;
 }
+
+footer{
+    font-size: x-small;
+    border-top:5px solid teal;
+}
+footer p{
+    margin-top: 5px;
+}
+@media screen and (max-width: 1024
+px) {
+
+    body {
+      background-color: lightgreen;
+    }
+  }
