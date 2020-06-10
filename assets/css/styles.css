@@ -1,0 +1,15 @@
+body{
+
+    background-color:black;
+}
+
+.aboutImage{
+    float: left;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
