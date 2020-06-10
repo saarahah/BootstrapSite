@@ -15,7 +15,6 @@ body{
 }
 
 
-
 .navbar-brand{
     padding: 15px 26px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -44,17 +43,27 @@ h1{
     color: lightgray;
 }
 
-footer{
+.footer{
     font-size: x-small;
     border-top:5px solid teal;
 }
-footer p{
+.footer p{
     margin-top: 5px;
 }
-@media screen and (max-width: 1024
-px) {
 
-    body {
-      background-color: lightgreen;
+@media screen and (max-width: 980px) {
+
+body {
+      background-color: lime;     
     }
-  }
+
+#aboutcontain{
+    margin-left: 33px;
+}
+
+#yourName{
+    margin-left: -50px;
+}
+
+    
+
