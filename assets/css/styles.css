@@ -1,4 +1,4 @@
-body{
+#main{
     background-image: url("https://www.stockvault.net/data/2018/11/01/256049/preview16.jpg")
 }
 
@@ -58,7 +58,7 @@ h1{
     margin-top: 5px;
 }
 
-#aboutcontain{
+#section{
     margin-left: 1%;
     width: 100%;
     font-size: 90%;
@@ -73,7 +73,7 @@ h1{
     width: 40%;
 }
 
-#aboutcontain{
+#section{
     width: 92%;
     font-size: 85%;
     margin-left: 2%;
@@ -98,7 +98,7 @@ h1{
         width: 50%;   
     }
     
-    #aboutcontain{
+    #section{
         width: 126%;
         font-size: 85%;
         /* margin-left: 35px; */
@@ -117,14 +117,14 @@ float: none;
   height: 60%; 
 }
     
- #aboutcontain{ 
+ #section{ 
     width: 124%;
     font-size: 85%;
     margin-left: 20px;
     margin-top: 35px;   
 }
 
-#yourName {
+#header {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
