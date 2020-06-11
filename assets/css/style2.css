@@ -3,6 +3,11 @@ body{
     background-color: grey;
 }
 
+hr{
+    border: 1px solid lightslategray;
+}
+
+
  img{
     height: 190px;
     width: 280px;
@@ -67,6 +72,7 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 22px;
+    color: teal;
 }
 
 .navbar-nav p{
