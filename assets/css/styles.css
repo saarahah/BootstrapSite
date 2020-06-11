@@ -59,7 +59,7 @@ h1{
 }
 
 #aboutcontain{
-    margin-left: 20px;
+    margin-left: 1%;
     width: 100%;
     font-size: 90%;
 }
@@ -69,13 +69,14 @@ h1{
 
 .aboutImage{
     
-    height: 140px;
-    width: 180px;
+    height: 40%;
+    width: 40%;
 }
 
 #aboutcontain{
     width: 92%;
     font-size: 85%;
+    margin-left: 2%;
 }
 
 .navbar-nav a{
@@ -93,8 +94,8 @@ h1{
     
     .aboutImage{
         
-        height: 180px;
-        width: 220px;   
+        height: 50%;
+        width: 50%;   
     }
     
     #aboutcontain{
@@ -111,9 +112,9 @@ h1{
 float: none;
   /* display: flex;
   flex: auto; */
-  margin-left: 15px;
-  width: 480px;
-  height: 320px; 
+  margin-left: 18%;
+  width: 60%;
+  height: 60%; 
 }
     
  #aboutcontain{ 
