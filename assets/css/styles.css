@@ -13,6 +13,7 @@ hr{
     height: 160px;
     width: 200px;
     object-fit: cover;
+    object-position: top;
 }
 
 .footer{
@@ -112,10 +113,7 @@ h1{
 }
 
 @media screen and (max-width: 640px) { 
-    body{
 
-    background-color: yellow;
-    }
     
 .aboutImage{
 float: none;
