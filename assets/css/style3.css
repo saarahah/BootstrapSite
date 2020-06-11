@@ -1,5 +1,4 @@
 body{
-
     background-image: url("https://www.stockvault.net/data/2018/11/01/256049/preview16.jpg")
 }
 
@@ -73,8 +72,7 @@ h1{
 
 #aboutcontain{ 
      margin-left: 20px; 
-     width: 93%; 
-        
+     width: 93%;    
     } 
 }
 
@@ -83,9 +81,7 @@ h1{
  @media screen and (max-width: 768px) { 
     
     #aboutcontain{
-        width: 126%;
-       
-        
+        width: 126%;  
     }
 }
 
@@ -98,7 +94,6 @@ h1{
         font-size: 85%;
         margin-left: 20px;
         margin-top: 35px;
-        
     }
 
 #yourName {

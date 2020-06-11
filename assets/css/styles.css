@@ -1,12 +1,10 @@
 body{
-
     background-image: url("https://www.stockvault.net/data/2018/11/01/256049/preview16.jpg")
 }
 
 hr{
     border: 1px solid lightslategray;
 }
-
 
 .aboutImage{
     float: left;
@@ -22,7 +20,6 @@ hr{
     height: 60px;
     width: 100%;   
 }
-
 
 .navbar-brand{
     padding: 15px 26px;
@@ -68,16 +65,12 @@ h1{
 }
 
 
-
-
- @media screen and (max-width: 980px) {
-
+@media screen and (max-width: 980px) {
 
 .aboutImage{
     
     height: 140px;
     width: 180px;
-    
 }
 
 #aboutcontain{
@@ -92,17 +85,16 @@ h1{
 }
 .navbar-nav p{
     font-size: 14px;
-}
+    }
  }
 
 
- @media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) { 
     
     .aboutImage{
         
         height: 180px;
-        width: 220px;
-        
+        width: 220px;   
     }
     
     #aboutcontain{
@@ -112,8 +104,8 @@ h1{
     }
 }
 
-@media screen and (max-width: 640px) { 
 
+@media screen and (max-width: 640px) { 
     
 .aboutImage{
 float: none;
@@ -121,18 +113,14 @@ float: none;
   margin-left: 15px;
   width: 480px;
   height: 320px; 
-
-        
-        
-    }
+}
     
-    #aboutcontain{
-        width: 124%;
-        font-size: 85%;
-        margin-left: 20px;
-        margin-top: 35px;
-        
-    }
+ #aboutcontain{
+    width: 124%;
+    font-size: 85%;
+    margin-left: 20px;
+    margin-top: 35px;   
+}
 
 #yourName {
     margin-left: 0px;
@@ -144,10 +132,10 @@ float: none;
 
  .navbar-nav {
     flex: auto;
-      margin-top: 50px; 
-      position: absolute;  
-      width: 100%;
-      background-color: white;   
+    margin-top: 50px; 
+    position: absolute;  
+    width: 100%;
+    background-color: white;   
 }
 
 #bottomNav{
