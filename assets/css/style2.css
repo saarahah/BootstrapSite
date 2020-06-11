@@ -16,8 +16,6 @@ hr{
 .imageTable tbody tr th{
    padding: 20px;
    margin:auto;
-   
-
 }
 
 .box{
@@ -109,6 +107,16 @@ h1{
     
     #aboutcontain{
         width: 126%;
+        font-size: 85%;
+        margin-left: 20px;
+        
+    }
+}
+
+@media screen and (max-width: 850px) { 
+    
+    #aboutcontain{
+        width: 120%;
         font-size: 85%;
         margin-left: 20px;
         

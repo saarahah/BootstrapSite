@@ -8,8 +8,8 @@ hr{
 
 .aboutImage{
     float: left;
-    height: 160px;
-    width: 200px;
+    height: 20%;
+    width: 20%;
     object-fit: cover;
     object-position: top;
 }
@@ -100,7 +100,7 @@ h1{
     #aboutcontain{
         width: 126%;
         font-size: 85%;
-        margin-left: 35px;
+        /* margin-left: 35px; */
     }
 }
 
@@ -109,13 +109,14 @@ h1{
     
 .aboutImage{
 float: none;
-  display: block;
+  /* display: flex;
+  flex: auto; */
   margin-left: 15px;
   width: 480px;
   height: 320px; 
 }
     
- #aboutcontain{
+ #aboutcontain{ 
     width: 124%;
     font-size: 85%;
     margin-left: 20px;
