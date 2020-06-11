@@ -15,7 +15,8 @@ hr{
 
 .imageTable tbody tr th{
    padding: 20px;
-   margin:auto;
+   /* margin:auto; */
+   /* display: block; */
 }
 
 .box{
@@ -112,6 +113,7 @@ h1{
 
   .imageTable tbody tr th{
     padding-left: 0.5%;
+    display: flexbox;
     /* margin:auto; */
  } 
 
@@ -138,6 +140,7 @@ h1{
     .imageTable tbody tr th{
         padding-left: 0.5%;
         /* margin:auto; */
+        display: flexbox;
      } 
 
     #section{
@@ -202,7 +205,7 @@ h1{
 }
 
 .imageTable tbody tr th{
-    display: flex;
+    display: block;
     margin-left:10%;
     /* margin: auto; */
     /* justify-content: center; */
