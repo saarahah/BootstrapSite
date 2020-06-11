@@ -178,8 +178,6 @@ h1{
 .imageTable tbody tr th{
     display: block;
     margin-left:15%;
-    /* margin: auto; */
-    /* justify-content: center; */
   } 
 
  img{
@@ -198,10 +196,15 @@ h1{
 @media screen and (max-width: 537px) { 
     
     .navbar-nav a{
- 
-        font-size: 10px;
+    font-size: 10px;
     
     }
+
+.imageTable tbody tr th{
+        display: block;
+        margin-left:2%;
+      } 
+    
   
     }
    
