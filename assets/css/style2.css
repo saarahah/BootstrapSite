@@ -95,7 +95,8 @@ h1{
     font-size: 90%;
 } */
 
-#aboutcontain{
+#section{
+    display: block;
     margin-left: 1%;
     width: 100%;
     font-size: 90%;
@@ -118,7 +119,8 @@ h1{
      /* margin-left: 0.06%; */
 
 
- #aboutcontain{
+ #section{
+     display: block;
     width: 92%;
     font-size: 85%;
     margin-left: 2%;
@@ -138,7 +140,8 @@ h1{
         /* margin:auto; */
      } 
 
-    #aboutcontain{
+    #section{
+        display: block;
         width: 126%;
         font-size: 85%;
         /* margin-left: 35px; */
@@ -170,7 +173,7 @@ h1{
         
     } */
 
-    #aboutcontain{ 
+    #section{ 
         width: 124%;
         font-size: 85%;
         margin-left: 20px;
