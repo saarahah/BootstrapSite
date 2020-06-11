@@ -3,11 +3,43 @@ body{
     background-color: grey;
 }
 
-.aboutImage{
-    float: left;
-    height: 160px;
-    width: 200px;
+ img{
+    height: 190px;
+    width: 280px;
     object-fit: cover;
+}  
+
+.imageTable tbody tr th{
+   padding: 20px;
+   margin:auto;
+   
+
+}
+
+.box{
+    position: relative;
+    display: inline-block; 
+    
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 70%; 
+    text-align: center;
+    background-color: teal;
+    
+}
+
+h2{
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    
 }
 
 .footer{
@@ -60,48 +92,21 @@ h1{
     font-size: 90%;
 }
 
-
-
-
- @media screen and (max-width: 980px) {
-
-
-.aboutImage{
-    
-    height: 140px;
-    width: 180px;
-    
-}
-
+@media screen and (max-width: 980px) {
 #aboutcontain{
-    width: 92%;
-    font-size: 85%;
-}
-
-.navbar-nav a{
-    padding-top: 8px;
-    font-weight: normal;
-    font-size: 14px;
-}
-.navbar-nav p{
-    font-size: 14px;
-}
- }
-
+        margin-left: 20px;
+        width: 93%;
+        font-size: 90%;
+    }
+ }    
 
  @media screen and (max-width: 768px) { 
-    
-    .aboutImage{
-        
-        height: 180px;
-        width: 220px;
-        
-    }
     
     #aboutcontain{
         width: 126%;
         font-size: 85%;
-        margin-left: 35px;
+        margin-left: 20px;
+        
     }
 }
 
@@ -111,19 +116,6 @@ h1{
     background-color: yellow;
     }
     
-.aboutImage{
-float: none;
-    /* position: center; */
-  display: block;
-  margin-left: 15px;
-  /* margin-right: auto; */
-  width: 480px;
-  height: 320px; 
-        /* height: 180px; */
-        /* width: 220px; */
-        
-        
-    }
     
     #aboutcontain{
         width: 124%;
@@ -154,5 +146,21 @@ float: none;
     padding-right: 130px;
 }
 
+.imageTable tbody tr th{
+    display: block;
+    margin-left:50px;
+  } 
+
+ img{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}  
+
+.box .text{
+    top: 80%; 
+    
+}
 
 }
+   
