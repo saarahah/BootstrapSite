@@ -145,6 +145,16 @@ float: none;
     padding-right: 130px;
 }
 }
+
+@media screen and (max-width: 537px) { 
+    
+    .navbar-nav a{
+ 
+        font-size: 10px;
+    
+    }
+  
+    }
      
 
 
