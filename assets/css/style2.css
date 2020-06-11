@@ -13,10 +13,16 @@ hr{
     object-fit: cover;
 }  
 
+#section{
+    display: block;
+    margin-left: 1%;
+    width: 100%;
+    font-size: 90%;
+}
+
 .imageTable tbody tr th{
    padding: 20px;
-   /* margin:auto; */
-   /* display: block; */
+    /* width: #section; */
 }
 
 .box{
@@ -90,35 +96,12 @@ h1{
     margin-top: 5px;
 }
 
-/* #aboutcontain{
-    margin-left: 20px;
-    width: 100%;
-    font-size: 90%;
-} */
-
-#section{
-    display: block;
-    margin-left: 1%;
-    width: 100%;
-    font-size: 90%;
-}
-
 @media screen and (max-width: 980px) {
-/* #aboutcontain{
-        margin-left: 20px;
-        width: 93%;
-        font-size: 90%;
-    }
- }     */
 
   .imageTable tbody tr th{
     padding-left: 0.5%;
     display: flexbox;
-    /* margin:auto; */
  } 
-
- /* .imageTable{
-     /* margin-left: 0.06%; */
 
 
  #section{
@@ -130,18 +113,6 @@ h1{
 }
 
  @media screen and (max-width: 768px) { 
-/*     
-    #aboutcontain{
-        width: 126%;
-        font-size: 85%;
-        margin-left: 20px;
-        
-    } */
-    .imageTable tbody tr th{
-        padding-left: 0.5%;
-        /* margin:auto; */
-        display: flexbox;
-     } 
 
     #section{
         display: block;
@@ -149,6 +120,13 @@ h1{
         font-size: 85%;
         /* margin-left: 35px; */
     }
+
+    .imageTable tbody tr th{
+        padding-left: 0.5%;
+        /* margin:auto; */
+        display: flexbox;
+        
+     } 
 }
 
 /* @media screen and (max-width: 850px) { 
@@ -167,16 +145,9 @@ h1{
     background-color: yellow;
     }
     
-    
-    /* #aboutcontain{
-        width: 124%;
-        font-size: 85%;
-        margin-left: 20px;
-        margin-top: 35px;
-        
-    } */
 
-    #section{ 
+
+#section{ 
         width: 124%;
         font-size: 85%;
         margin-left: 20px;

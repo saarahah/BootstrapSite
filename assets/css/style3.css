@@ -17,7 +17,7 @@ button{
     font-size: 16px;
   }
 
- #aboutcontain{ 
+ #section{ 
      margin-left: 20px; 
  } 
 
@@ -70,7 +70,7 @@ h1{
 
 @media screen and (max-width: 980px) {
 
-#aboutcontain{ 
+#section{ 
      margin-left: 20px; 
      width: 93%;    
     } 
@@ -80,7 +80,7 @@ h1{
 
  @media screen and (max-width: 768px) { 
     
-    #aboutcontain{
+    #section{
         width: 126%;  
     }
 }
@@ -89,7 +89,7 @@ h1{
 
     
     
-    #aboutcontain{
+    #section{
         width: 124%;
         font-size: 85%;
         margin-left: 20px;
