@@ -14,7 +14,7 @@ hr{
 }  
 
 #section{
-    display: block;
+    
     margin-left: 1%;
     width: 100%;
     font-size: 90%;
@@ -22,7 +22,8 @@ hr{
 
 .imageTable tbody tr th{
    padding: 20px;
-    /* width: #section; */
+    width: 60%;
+    /* position: center; */
 }
 
 .box{
@@ -99,18 +100,20 @@ h1{
 
 @media screen and (max-width: 980px) {
 
+    #section{
+        
+       padding-right: -1px;     
+       width: 100%;
+       font-size: 85%;
+       margin-left: 2%;
+      
+   }
+
   .imageTable tbody tr th{
     padding-left: 0.5%;
     display: flexbox;
+    
  } 
-
-
- #section{
-     display: block;
-    width: 92%;
-    font-size: 85%;
-    margin-left: 2%;
-}
 }
 
  @media screen and (max-width: 768px) { 
@@ -119,7 +122,8 @@ h1{
         display: block;
         width: 126%;
         font-size: 85%;
-        /* margin-left: 35px; */
+        
+        /* margin:auto; */
     }
 
     .imageTable tbody tr th{
@@ -130,15 +134,7 @@ h1{
      } 
 }
 
-/* @media screen and (max-width: 850px) { 
-    
-    #aboutcontain{
-        width: 120%;
-        font-size: 85%;
-        margin-left: 20px;
-        
-    }
-} */
+
 
 @media screen and (max-width: 640px) { 
     body{
@@ -152,7 +148,8 @@ h1{
         width: 124%;
         font-size: 85%;
         margin-left: 20px;
-        margin-top: 35px;   
+        margin-top: 35px;  
+        
     }
 
 #header {
