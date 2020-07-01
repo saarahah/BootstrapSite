@@ -8,3 +8,8 @@ The website is
 
 https://saarahah.github.io/BootstrapSite/index.html
 
+<<<<<<< HEAD
+=======
+![image](assets/images/screenshot.PNG)
+
+>>>>>>> c0633fb864ceb2e54120afe934f12c82f52a6eb7
