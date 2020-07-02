@@ -140,7 +140,7 @@ float: none;
     width: 124%;
     font-size: 85%;
     margin-top: 35px;  
-    /* justify-content: center;  */
+    justify-content: center; 
 }
 
 #header {
