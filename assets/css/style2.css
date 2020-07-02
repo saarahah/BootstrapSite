@@ -32,11 +32,6 @@ p{
 
 }
 
-.imageTable tbody tr th{
-   padding: 20px;
-    width: 60%;
-}
-
 .box{
     position: relative;
     display: inline-block; 
@@ -101,6 +96,12 @@ h1{
     padding-right: 5px;
     padding-left: 5px;
 }
+
+.imageTable tbody tr th{
+    padding: 20px;
+     /* width: 60%; */
+     width: max-content;
+ }
 
 .footer{
     font-size: x-small;
@@ -185,14 +186,10 @@ h1{
   } 
 
  img{
-    /* height: 300px;
-    width: 400px; */
+
     object-fit: cover;
 }  
 
-/* .box .text{
-    top: 80%; 
-    
-} */
+
 
 }
