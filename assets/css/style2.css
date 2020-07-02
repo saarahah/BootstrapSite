@@ -1,7 +1,7 @@
 #main{
     background-image: url("../images/background.jpg");
     background-size: cover;
-    /* background-position-y: top; */
+
     background-repeat: none;
    
 }
@@ -39,7 +39,6 @@ p{
 .imageTable tbody tr th{
    padding: 20px;
     width: 60%;
-    /* position: center; */
 }
 
 .box{
@@ -105,7 +104,6 @@ h1{
     font-size: 16px;
     padding-right: 5px;
     padding-left: 5px;
-    color: rgb(77, 35, 35);
 }
 
 .footer{
@@ -118,8 +116,7 @@ h1{
 
 @media screen and (max-width: 980px) {
 
-    #section{
-        
+    #section{  
        padding-right: -1px;     
        width: 100%;
        font-size: 85%;
@@ -130,97 +127,77 @@ h1{
   .imageTable tbody tr th{
     padding-left: 0.5%;
     display: flexbox;
-    
- } 
+  }
+
+  .navbar-nav a{
+    padding-top: 8px;
+    font-weight: normal;
+    font-size: 14px;
 }
 
- @media screen and (max-width: 768px) { 
+}
+
+  @media screen and (max-width: 768px) { 
 
     #section{
         display: block;
         width: 126%;
-        font-size: 85%;
-        
-        /* margin:auto; */
-    }
+        font-size: 85%; 
+         margin:auto; 
+     }
 
     .imageTable tbody tr th{
         padding-left: 0.5%;
-        /* margin:auto; */
-        display: flexbox;
+         margin:auto; 
+         display: flexbox;
         
      } 
-}
+}  
 
 
 
-@media screen and (max-width: 640px) { 
-    /* body{
-
-    background-color: yellow;
-    } */
+ @media screen and (max-width: 640px) { 
     
-
-
 #section{ 
-        width: 124%;
+        /* width: 122%; */
         font-size: 85%;
         margin-left: 20px;
         margin-top: 35px;  
         
     }
 
-#header {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    width: 100%;
-    text-align: center;
-} 
+    #header {
+ 
+        width: 100%;
+        text-align: center;
+        /* justify-content: center; */
+    } 
 
- .navbar-nav {
+.navbar-nav {
     flex: auto;
-      margin-top: 50px; 
-      position: absolute;  
-      width: 100%;
-      background-color: white;   
+    margin-top: 50px; 
+    position: absolute;  
+    width: 100%;
+    background-color: white;   
 }
 
-#bottomNav{
-    padding-left: 130px;
-    padding-right: 130px;
-}
 
 .imageTable tbody tr th{
-    display: block;
-    margin-left:15%;
+    display: flex;
+    /* display: block; */
+    /* margin-left:1%; */
   } 
 
  img{
-    height: 300px;
-    width: 400px;
+    /* height: 300px;
+    width: 400px; */
     object-fit: cover;
 }  
 
-.box .text{
+/* .box .text{
     top: 80%; 
     
-}
+} */
 
 }
 
-@media screen and (max-width: 537px) { 
-    
-    .navbar-nav a{
-    font-size: 8px;
-    
-    }
-
-.imageTable tbody tr th{
-        display: block;
-        margin-left:2%;
-      } 
-    
-  
-    }
-   

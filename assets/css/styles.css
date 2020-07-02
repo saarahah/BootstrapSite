@@ -124,6 +124,10 @@ h1{
 }
 
 @media screen and (max-width: 640px) { 
+
+#main{
+    justify-content: center;
+}
     
 .aboutImage{
 float: none;
@@ -136,18 +140,18 @@ float: none;
     width: 124%;
     font-size: 85%;
     margin-top: 35px;  
-    justify-content: center; 
+    /* justify-content: center;  */
 }
 
 #header {
  
     width: 100%;
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
 } 
 
  .navbar-nav {
-    /* flex: auto; */
+    flex: auto;
     margin-top: 50px; 
     position: absolute;  
     width: 100%;
