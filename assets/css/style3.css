@@ -10,9 +10,6 @@ hr{
     border: 1px solid lightslategray;
 }
 
-p{
-    font-family: 'Merriweather', serif;
-}
 
 button{
     background-color:#0a1164;
@@ -40,7 +37,7 @@ button{
 
 .navbar-brand{
     padding: 15px 26px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Special Elite', cursive;
     font-weight: bold;
     font-size: 22px;
     background-color: #0a1164;
@@ -49,10 +46,12 @@ button{
 
 .navbar{
     padding: 0;
+    background-color: #5083c2;
+    font-family: 'Special Elite', cursive;
 }
 
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Special Elite', cursive;
     font-weight: bold;
     font-size: 22px;
     color: #0a1164;
