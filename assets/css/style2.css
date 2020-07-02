@@ -31,10 +31,6 @@ p{
     background-color: #a9c7ec;
 
 }
-.col-9{
-    background-color: #a9c7ec;
-
-}
 
 .imageTable tbody tr th{
    padding: 20px;
@@ -126,7 +122,7 @@ h1{
 
   .imageTable tbody tr th{
     padding-left: 0.5%;
-    display: flexbox;
+    display: block;
   }
 
   .navbar-nav a{
@@ -149,7 +145,7 @@ h1{
     .imageTable tbody tr th{
         padding-left: 0.5%;
          margin:auto; 
-         display: flexbox;
+         display: block;
         
      } 
 }  
